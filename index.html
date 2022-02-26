@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>To Do List</title>
+
+        <!-- Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+        
+        <!-- CSS style sheet -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class = "container">
+                <!-- First title -->
+                <div class = "title_high">HIGH</div>
+
+                <!-- First input -->
+                <div class = "first-input">
+                    <input class = "high_input" type="text" placeholder="Add high level task">
+                    <button class ="add-button-one"  type="button">✕</button>
+                </div>
+
+                 <!-- High task one  -->
+                <div class = "task_container">
+                    <input class="task_input" type="radio">
+                    <p class = "text">Bake cake</p>
+                    <span class = "close-button" type="button">✕</span>
+                </div>
+
+                <!-- High task two  -->
+                <div class = "task_container">
+                    <input class="task_input" type="radio">
+                    <p>Write the TODO list</p>
+                    <span class = "close-button">✕</span>
+                </div>
+
+                <!-- High task three  -->
+                <div class = "task_container">
+                    <input class="task_input" type="radio">
+                    <p>Start the task</p>
+                    <span class = "close-button">✕</span>
+                </div>
+
+
+                <!-- Second title -->
+                <div class = "title_low">LOW</div>
+                
+                    <!-- Second input -->
+                    <div class = "second-input">
+                        <input class = "low_input" type="text" placeholder="Add">
+                        <button class ="add-button-two"  type="button">✕</button>
+                    </div>
+                    
+                <!-- Low task one -->
+                <div class = "task_container">
+                    <input class="task_input" type="radio">
+                    <p>Watch Youtube</p>
+                    <span class = "close-button">✕</span>
+                </div>
+        </div>
+        <script type="module" src="view.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
+
+
